@@ -1,6 +1,6 @@
 # Portland History Tours
 
-### This is a Mock up site for History tours in Portland, Oregon
+### This is a Mock up site for History tours in Portland, Oregon. Frontend only
 
 ### Tech Used:
 * HTML
