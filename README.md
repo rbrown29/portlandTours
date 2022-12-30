@@ -9,7 +9,15 @@
 * REACT
 * NODE
 
+### Author and Code by Richard Brown
 
+
+![Home](src/pictures/pic1.png?raw=true{:height="50px"width="50px"})
+![Home](src/pictures/pic2.png?raw=true{:height="50px"width="50px"})
+![Home](src/pictures/pic3.png?raw=true{:height="50px"width="50px"})
+![Home](src/pictures/pic4.png?raw=true{:height="50px"width="50px"})
+![Home](src/pictures/pic5.png?raw=true{:height="50px"width="50px"})
+![Home](src/pictures/pic6.png?raw=true{:height="50px"width="50px"})
 
 
 
