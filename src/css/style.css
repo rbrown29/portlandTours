@@ -344,7 +344,7 @@ footer {
     padding: 1em;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
 
     body {
         margin: 0;
@@ -363,11 +363,12 @@ footer {
     }
 
     header img {
-        display: none;
+        margin-left: -4em;
+        margin-right: 4em;
     }
 
     header h1 {
-        padding-top: 1em;
+        display: none;
     }
 
     nav {
@@ -414,17 +415,19 @@ footer {
     }
 
 
+
 }
 
 @media only all and (max-width: 768px) {
 
 
     header h1 {
-        font-size: 2em;
-        padding-top: .25em;
-        padding-left: 1.5em;
-        width: 85%;
-        text-align: center;
+        display: none;
+    }
+
+    header img {
+        margin-left: -2em;
+        margin-right: 4em;
     }
 
     nav {
@@ -462,11 +465,6 @@ footer {
         display: none;
     }
 
-    footer {
-        padding: .5em;
-        margin: 0;
-    }
-
     #mobile {
         display: inline;
     }
@@ -474,4 +472,31 @@ footer {
     #desktop {
         display: none;
     }
+
+    footer {
+        display: none;
+        position: relative;
+    }
+
+    table {
+        align-items: center;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .forms {
+        margin-left: 2em;
+        margin-right: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+     label {
+        margin-right: 2em;
+        margin-left: -4em;
+     }
+     #mySubmit {
+        margin-left: 2em;
+        margin-right: 2em;
+     }
 }
+
