@@ -10,7 +10,6 @@
 * NODE
 
 ### Author and Code by Richard Brown
-### live site: https://portlandtours.herokuapp.com/
 
 
 ![Home](src/pictures/pic1.png?raw=true{:height="50px"width="50px"})
