@@ -1,13 +1,14 @@
 import React from "react";
 import '../css/style.css';
+import '../components/footer.js';
 
 class Growth extends React.Component {
     render() {
         return (
             <div class="Submits">
-                <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <p><span class="studio">Growth Tour -</span>Want to jump into Portland's rich history of growth? This tour offers an insightful experience, by our very educated tour guides, about the history of Portland's growth. While this tour includes walking and driving most conversations will take place at Deschuttes Brewery over complimentary beer flights and complimentary dining at Portland's oldest restaurant, Huber's.</p>
-                <ul>
+                <h1>Growth Tour</h1>
+                <p>Want to jump into Portland's rich history of growth? This tour offers an insightful experience, by our very educated tour guides, about the history of Portland's growth. While this tour includes walking and driving most conversations will take place at Deschuttes Brewery over complimentary beer flights and complimentary dining at Portland's oldest restaurant, Huber's.</p>
+                <ul id="ul">
                     <li>Complimentary tapas style appetizer at Huber's restaurant</li>
                     <li>Complimentary flight of three Deschutes Brewery beers</li>
                 </ul>

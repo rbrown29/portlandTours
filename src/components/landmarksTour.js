@@ -6,10 +6,10 @@ class LandmarksTour extends React.Component {
         return (
            
             <div class="Submits">
-                 <br /><br /><br /><br /><br /><br /><br /> <br /><br /><br />
-                <p><span class="studio">LandMarks Tour -</span>This tour will help you cement your Portland knowledge and cover all of Portland's famous landmarks and must see spots. We use a spacious shuttle bus to travel around Portland's quadrants and famous bridges. When you finish the tour, you can tell everyone that you've seen it all in Portland.
+                <h1>Landmarks Tour</h1>
+                <p>This tour will help you cement your Portland knowledge and cover all of Portland's famous landmarks and must see spots. We use a spacious shuttle bus to travel around Portland's quadrants and famous bridges. When you finish the tour, you can tell everyone that you've seen it all in Portland.
                 </p>
-                <ul>
+                <ul id="ul">
                     <li>Complimentary tour booklet with photos and brief descriptions of the locations we visit
                     </li>
                     <li>Complimentary local snacks</li>
@@ -45,7 +45,7 @@ class LandmarksTour extends React.Component {
                             $110
                         </td>
                     </tr>
-                </table><br></br>
+                </table>
             </div>
         );
     }

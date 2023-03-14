@@ -2,19 +2,17 @@ import React from 'react';
 import './css/style.css';
 import Home from './components/Home';
 import Header from './components/header';
-import Footer from './components/footer';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import LandmarksTour from './components/landmarksTour';
 import DowntownTour from './components/downtownTour';
 import Contact from './components/contact';
 import Growth from './components/growthTour';
 
-
 class App extends React.Component {
   render() {
     return (
       <Router>
-        <div>
+        <div id="nav">
           <Header />
           <nav>
             <br /><br /><br /><br /><br /><br /><br />
@@ -31,7 +29,6 @@ class App extends React.Component {
             <Route path='/downtownTour' element={<DowntownTour />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
-          <Footer />
         </div>
       </Router>
     );
